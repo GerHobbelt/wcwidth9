@@ -62,7 +62,7 @@ int main(int argc, char **argv) {
         cstr,
         width,
         uwidth,
-        wcwidth(rune),
+		wcwidth9(rune),
         utf8proc_category_string(rune),
         rune);
     str += size;
